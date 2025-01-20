@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(238, 168, 179);
+            margin: 0px;
+        }
+
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(189, 99, 113);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.616);
+        
+        }
+
+        nav > a{
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+
+        article{
+            background-color: rgb(247, 211, 217);
+            padding: 5px;
+        }
+
+        article > aside {
+           background-color: rgb(212, 152, 161);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        div#bola2{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+       <section id="assuntos">
+            <p>Discografia do Single Álbum</p>
+        </section>
+
+       <section id="noticias">
+        <article>
+            
+            <h2>Notícia sobre o comeback de 'Supernatural'</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste blanditiis, doloremque sapiente soluta et quod! Id obcaecati iste neque eum. Repellat atque laborum ipsam architecto autem labore nesciunt reprehenderit fuga.</p>
+            <aside>
+                <p>Artigo escrito por Kim Minji</p>
+            </aside>
+        </article> 
+        
+        <article>
+
+        </article>
+
+       </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pela Pastel Ghost</p>
+    </footer>
+
+    <div id="bola"></div>
+
+    <div id="bola2"></div>
+</body>
+</html>

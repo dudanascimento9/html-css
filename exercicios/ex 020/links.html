@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(202, 145, 202);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(108, 42, 141);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgb(255, 90, 255);
+        }
+
+        .especial::before{
+            content: '⇒ ';
+        }
+
+        .especial::after{
+            content: ' ⇐';
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://youtube.com/@aespa?si=o0bVLnoLfN7sSdsy" target="_blank">Aespa</a></li>
+        <li><a href="https://youtube.com/@newjeans_official?si=7HwV4RHFBTg7vCQo" class="especial">NewJeans</a></li>
+        <li><a href="https://youtube.com/@pastelghostx?si=jLZjUk29qkCIVvIm" class="especial">Pastel Ghost</a></li>
+    </ul>
+</body>
+</html>
